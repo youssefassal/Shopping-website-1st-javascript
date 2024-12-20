@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/Style.css">
+        <title>Assal</title>
+    </head>
+    <body>
+
+        <header>
+            <div class="container">
+
+                <div class="header-content">
+                    <a href="index.html" class="brand">Online Shopping</a>
+
+                    <nav>
+                        <ul id="links">
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="register.html">Register</a></li>
+                        </ul>
+
+                        <ul id="user_info">
+                            <li><a href="#" id="user"></a></li>
+                            <li class="shopping_cart">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="badge"></span>
+
+                                <div class="carts_products">
+                                    <div class=""></div>
+                                    <a href="cartproducts.html">View All Products</a>
+                                </div>
+                            </li>
+                            <li><a href="#" id="logout">Logout</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </header>
+
+        <div class="container mt-3 d-flex justify-content-between">
+            <select class="form-select" aria-label="Default select example">
+                <option value="1">Search by Name</option>
+                <option value="2">Search by Category</option>
+            </select>
+
+            <div class="searchbar">
+                <div>
+                    <div class="form">
+                        <i class="fa fa-search"></i>
+                        <input type="text" class="form-control form-input" placeholder="Search">
+                        <!-- <span class="left-pan"><i class="fa fa-microphone"></i></span> -->
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+        <hr>
+        <div class="container">
+            <div class="cartproducts-container"></div>
+
+            <div class="check">
+                <h2 class="check-title"></h2>
+            </div>
+        </div>
+
+        <hr>
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/carts.js"></script>
+        <script src="js/user.js"></script>
+    </body>
+</html>
